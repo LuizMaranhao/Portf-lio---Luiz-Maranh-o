@@ -1,0 +1,50 @@
+// src/styles/components/_header.scss
+@use "../abstracts/variables" as *;
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  background-color: rgba($bg-dark, 0.85);
+  backdrop-filter: blur(12px);
+
+  border-bottom: 1px solid rgba($text-main, 0.1);
+  padding: 1rem 2rem;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $text-main;
+    text-decoration: none;
+    letter-spacing: -0.5px;
+  }
+
+  nav {
+    ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    a {
+      color: $text-muted;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      transition: $transition;
+
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
+}

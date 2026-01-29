@@ -1,0 +1,14 @@
+@use "../abstracts/variables" as *; // Essencial para reconhecer as variáveis
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $bg-dark;
+  color: $text-main;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+}

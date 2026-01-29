@@ -1,0 +1,57 @@
+// src/styles/main.scss
+@use "./abstracts/variables" as *;
+
+@use "./base/reset";
+@use "./components/header";
+@use "./components/projects";
+
+.home {
+  padding: 4rem 2rem;
+}
+
+.hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  color: $text-main;
+}
+
+.hero-text h2 {
+  margin-top: .5rem;
+  color: $accent;
+}
+
+.hero-text p {
+  margin-top: 1rem;
+  color: $text-muted;
+  max-width: 480px;
+}
+
+.hero-image img {
+  border-radius: 50%;
+  background: $card-bg;
+}
+
+.sobre {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+.sobre h1 {
+  color: $text-main;
+  margin-bottom: 1.5rem;
+}
+
+.sobre p {
+  color: $text-muted;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
