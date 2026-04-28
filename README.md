@@ -2,7 +2,7 @@
 
 Este é o meu portfólio pessoal, desenvolvido com foco em performance, design moderno e responsividade. O projeto centraliza meus principais trabalhos como Desenvolvedor Full Stack, destacando habilidades em Front-end e Back-end.
 
-![Preview do Portfólio](/public/projeto-viagens.png) 
+![Preview do Portfólio](/projeto-portifolio.png) 
 
 ## 🚀 Tecnologias Utilizadas
 
